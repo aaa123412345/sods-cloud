@@ -8,8 +8,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients(basePackages = "org.eiefyp.feign")
-public class PublicRestApplication {
+public class PublicRESTConsumerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(PublicRestApplication.class,args);
+        SpringApplication.run(PublicRESTConsumerApplication.class,args);
     }
 }
